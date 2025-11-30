@@ -7,10 +7,10 @@ use std::sync::Arc;
 
 //- Type Re-exporting
 pub use endpoint::{
-    document::{DocumentStatusResp, DocumentTranslateStatus, UploadDocumentResp},
+    document::{UploadDocumentRequester, DocumentStatusResp, DocumentTranslateStatus, UploadDocumentResp},
     glossary,
     languages::{LangInfo, LangType},
-    translate::{ModelType, TagHandling, TranslateTextResp},
+    translate::{TranslateRequester, ModelType, TagHandling, TranslateTextResp},
     usage::UsageResponse,
     Error, Formality,
 };
